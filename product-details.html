@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transport Bootstrap Responsive Web Template  </title>
+  <!-- Bootstrap css -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- Bootstrap Icons css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <!-- Swiper slider css -->
+  <link rel="stylesheet" href="assets/plugins/Swiper-slider/swiper-bundle.min.css">
+  <!-- Glightbox popup css -->
+  <link rel="stylesheet" href="assets/plugins/glightbox/glightbox.css">
+  <!-- Animate css for animation -->
+  <link rel="stylesheet" href="assets/plugins/animate-css/animate.css">
+  <!-- aos css (Animation on scroll ) -->
+  <link rel="stylesheet" href="assets/plugins/aos/aos.css">
+  <!-- Fontawesome Icons css -->
+  <link rel="stylesheet" href="assets/plugins/icons/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/plugins/icons/css/brands.css">
+  <link rel="stylesheet" href="assets/plugins/icons/css/solid.css">
+  <!-- Style css -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+
+<body>
+  <!-- preloader -->
+  <div id="preloader"></div>
+  <!-- Progress circle scroll to top -->
+  <div id="progress">
+    <div id="progress-value">
+      <i class="bi bi-arrow-up-short"></i>
+    </div>
+  </div>
+<!-- Black Transparent Screen -->
+<span class="screen-darken"></span>
+<!-- End -->
+
+
+
+<!-- Header section --> 
+<header class="header" id="header">
+  <div class="container">
+    <!-- Navigation Wrapper -->
+    <nav id="navbar_top" class="navbar navbar-expand-lg navbar-light">
+      <!-- Desktop Logo -->
+      <a href="index.html" class="logo navbar-brand ">
+        <img src="assets/img/logo.png" alt="logo">
+      </a>
+      <!-- End -->
+      <!-- Mobile menu bar button -->
+      <button class="navbar-toggler order-2 order-md-3" type="button" data-bs-toggle="collapse"
+        data-trigger="navbar_main" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- End -->
+
+      <div class="mobile-offcanvas collapse navbar-collapse order-3 order-md-1" id="navbar_main">
+        <!-- Mobile slider menu from left -->
+        <div class="offcanvas-header1 ps-0 pt-0 mb-4">
+          <!-- Mobile logo -->
+          <a href="index.html" class="logo navbar-brand py-0">
+            <img src="assets/img/logo.png" alt="">
+          </a>
+          <!-- End -->
+          <!-- Mobile menu close button -->
+          <button class="btn-close float-end"></button>
+        </div>
+        <!-- End -->
+        <!-- Main menu for Desktop and Mobile -->
+        <ul class="navbar-nav mx-auto order-2">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="about.html" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+            <div class="megasubmenu dropdown-menu">
+              <div class="row gx-0">
+                <div class="col-md-6">
+                  <h6 class="dropdown-header">Single Pages</h6>
+                  <ul class="ps-0">
+                    <li><a href="login.html" class="dropdown-item">SignIn</a></li>
+                    <li><a href="signup.html" class="dropdown-item">SignUp</a></li>
+                    <li><a href="pricing.html" class="dropdown-item">Pricing</a></li>
+                <li><a href="faqs.html" class="dropdown-item">FAQ</a></li>
+                <li><a href="404.html" class="dropdown-item">404 Error</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-6">
+                  <h6 class="dropdown-header">Product Pages</h6>
+                  <ul class="ps-0">
+                    <li><a href="shop.html" class="dropdown-item">Shop</a></li>
+                <li><a href="product-details.html" class="dropdown-item">Product Details</a></li>
+                <li><a href="shop-cart.html" class="dropdown-item">Shopping Cart</a></li>
+                <li><a href="shop-checkout.html" class="dropdown-item">Checkout</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown3" role="button"
+              data-bs-toggle="dropdown">Blog</a>
+            <div class="dropdown-menu p-0 p-md-3">
+              <ul class="ps-0">
+                <li><a href="blog.html" class="dropdown-item">Blog Grid</a></li>
+                <li><a href="blog-right-sidebar.html" class="dropdown-item">Blog Right Sidebar</a></li>
+                <li><a href="blog-details.html" class="dropdown-item">Single Blog</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+
+        <!-- Main menu for Desktop and Mobile End -->
+        <!-- Mobile menu Footer -->
+        <div class="offcanvas-menu-footer d-lg-none">
+          <div>
+            +91 - 704233XXXX<br>
+            <a href="#">Info@gmail.com</a>
+            <nav class="social__links-type2 d-flex justify-content-start mt-2">
+              <a href="#"><i class="bi bi-twitter twitter-color"></i></a>
+              <a href="#"><i class="bi bi-facebook facebook-color"></i></a>
+              <a href="#"><i class="bi bi-instagram instagram-color"></i></a>
+            </nav>
+          </div>
+
+        </div>
+        <!-- End -->
+      </div>
+      <!-- End -->
+      <!-- Top Right section for Search -->
+      <!-- Top Right section for Search, Cart and Register Login -->
+    <div class="navbar-second order-1 order-md-2 ms-auto me-2">
+      <ul class="navbar-nav flex-row ecom-group">
+        <!-- Search toggle from top -->
+        <li class="nav-item">
+          <!-- Search Icon -->
+          <a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><i class="bi bi-search"></i></a>
+          <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+            <div class="offcanvas-header container">
+              <h5 id="offcanvasTopLabel">
+                <a href="#" class="logo">
+                  <img src="assets/img/logo.png" alt="" >
+                </a>
+              </h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body d-flex align-items-center justify-content-center">
+              <div class="container">
+                <div class="col-12">
+                  <div class="mb-5">
+                    <h1>Search</h1>
+                  </div>
+                  <div class="search">
+                    <input type="search" class="form-control" placeholder="Type keyword and hit search button">
+                    <button class="btn"> <i class="bi bi-search"></i> </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <!-- End -->
+        <!-- Cart Top Right -->
+        <li class="nav-item position-relative">
+          <!-- Cart Icon -->
+          <a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="bi bi-cart"></i>
+            <span class="position-absolute translate-middle Badges cart-badges">10</span></a>
+            <!-- End -->
+            
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+            aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 id="offcanvasRightLabel">SHOPPING CART</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div class="prd-cart-list">
+                <ul>
+                  <!-- Item Card -->
+                  <li>
+                    <div class="cart-prd d-flex">
+                      <div class="img-cart-thumb me-3">
+                        <img src="assets/img/prod-img-01.jpg" alt="">
+                      </div>
+                      <div class="cart-prd-description">
+                        <h5>
+                          <a href="#">Men's Clothing</a>
+                        </h5>
+                        <div class="qty-price-wrapper d-flex justify-content-between">
+                          <div class="select-wrapper">
+                            <select class="form-select py-1">
+                              <option value="1" selected="">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="4">4</option>
+                            </select>
+                          </div>
+                          <div class="cart-price">
+                            <span>$25.00</span>
+                          </div>
+                        </div>
+                      </div>
+                      <a href="#">
+                        <i class="bi bi-trash3"></i>
+                      </a>
+                    </div>
+                  </li>
+                  <!-- End -->
+                  <!-- Item Card -->
+                  <li>
+                    <div class="cart-prd d-flex">
+                      <div class="img-cart-thumb me-3">
+                        <img src="assets/img/prod-img-02.jpg" alt="">
+                      </div>
+                      <div class="cart-prd-description">
+                        <h5>
+                          <a href="#">Kids</a>
+                        </h5>
+                        <div class="qty-price-wrapper d-flex justify-content-between">
+                          <div class="select-wrapper">
+                            <select class="form-select py-1">
+                              <option value="1" selected="">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="4">4</option>
+                            </select>
+                          </div>
+                          <div class="cart-price">
+                            <span>$25.00</span>
+                          </div>
+                        </div>
+                      </div>
+                      <a href="#">
+                        <i class="bi bi-trash3"></i>
+                      </a>
+                    </div>
+                  </li>
+                  <!-- End -->
+                  <!-- Item Card -->
+                  <li>
+                    <div class="cart-prd d-flex">
+                      <div class="img-cart-thumb me-3">
+                        <img src="assets/img/prod-img-03.jpg" alt="">
+                      </div>
+                      <div class="cart-prd-description">
+                        <h5>
+                          <a href="#">Women Clothing</a>
+                        </h5>
+                        <div class="qty-price-wrapper d-flex justify-content-between">
+                          <div class="select-wrapper">
+                            <select class="form-select py-1">
+                              <option value="1" selected="">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="4">4</option>
+                            </select>
+                          </div>
+                          <div class="cart-price">
+                            <span>$25.00</span>
+                          </div>
+                        </div>
+                      </div>
+                      <a href="#">
+                        <i class="bi bi-trash3"></i>
+                      </a>
+                    </div>
+                  </li>
+                  <!-- End -->
+                </ul>
+              </div>
+              <!-- Sub Total -->
+              <div class="cart-chekout-box">
+                <div class="subtotal d-flex justify-content-between mb-4">
+                  <span>Subtotal:</span>
+                  <span>$23.50</span>
+                </div>
+                <div class="chkout-btn d-grid">
+                  <a href="shop-cart.html" class="btn btn-outline mb-3 p-2">View Cart</a>
+                  <a href="shop-checkout.html" class="btn btn-primary p-2">Checkout</a>
+                </div>
+              </div>
+              <!-- End -->
+            </div>
+          </div>
+        </li>
+        <!-- Login -->
+        <li class="nav-item">
+          <a href="login.html"><i class="bi bi-person-fill"></i></a>
+        </li>
+        <!-- End -->
+      </ul>
+    </div>
+    </nav>
+    <!-- End -->
+  </div>
+</header>
+<!-- End -->
+
+  <!-- main section -->
+  <main>
+    <!-- Full width Banner -->
+    <section class="bg-color bg-pos-full bg-3">
+      <div class="container py-5">
+        <div class="row py-5">
+          <div class="col-md-6 p-4 header-txt d-flex flex-column justify-content-center">
+            <h2 class="display-6">Shop</h2>
+            <nav aria-label="breadcrumb" class="page__header-navigation d-inline-block mt-3">
+              <ol class="breadcrumb mb-1">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Shop</li>
+              </ol>
+            </nav>
+          </div>
+          <div class="col-md-6 text-center">
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Full width Banner End -->
+
+<!-- Body Section -->
+<section class="section">
+  <div class="container">
+    <div class="row g-4 gx-md-5">
+      <!-- Col -->
+      <div class="col-lg-6">
+        <!-- Product Big Image with Zoom Image Lightbox -->
+        <div class="swiper gallery-top">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <figure>
+                <a href="assets/img/product-img-lg05.jpg" class="glightbox">
+                  <img src="assets/img/product-img-lg05.jpg" alt="" class="rounded">
+                </a>
+              </figure>
+            </div>
+            <div class="swiper-slide">
+              <figure>
+                <a href="assets/img/product-img-lg06.jpg" class="glightbox">
+                  <img src="assets/img/product-img-lg06.jpg" alt="" class="rounded">
+                </a>
+              </figure>
+            </div>
+            <div class="swiper-slide">
+              <figure>
+                <a href="assets/img/product-img-lg07.jpg" class="glightbox">
+                  <img src="assets/img/product-img-lg07.jpg" alt="" class="rounded">
+                </a>
+              </figure>
+            </div>
+            <div class="swiper-slide">
+              <figure>
+                <a href="assets/img/product-img-lg08.jpg" class="glightbox">
+                  <img src="assets/img/product-img-lg08.jpg" alt="" class="rounded">
+                </a>
+              </figure>
+            </div>
+          </div>
+          <!-- Add Arrows -->
+          <div class="swiper-button-next swiper-button-white"></div>
+          <div class="swiper-button-prev swiper-button-white"></div>
+        </div>
+        <!-- Product Big Image End -->
+        <!-- Product Thumb Image -->
+        <div class="swiper gallery-thumbs">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <figure>
+                <img src="assets/img/product-img-lg05.jpg" alt="" class="rounded">
+              </figure>
+            </div>
+            <div class="swiper-slide">
+              <figure>
+                <img src="assets/img/product-img-lg06.jpg" alt="" class="rounded">
+              </figure>
+            </div>
+            <div class="swiper-slide">
+              <figure>
+                <img src="assets/img/product-img-lg07.jpg" alt="" class="rounded">
+              </figure>
+            </div>
+            <div class="swiper-slide">
+              <figure>
+                <img src="assets/img/product-img-lg08.jpg" alt="" class="rounded">
+              </figure>
+            </div>
+          </div>
+        </div>
+        <!-- Product Thumb Image -->
+      </div>
+      <!-- Col End -->
+      <!-- Col -->
+      <div class="col-lg-6">
+        <h2 class="prd_heading">Brown Women Casual Top</h2>
+        <!-- Star Rating -->
+        <div class="star-rating">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill" style="color: rgb(176, 176, 176);"></i>
+          <span class="ms-3"> Reviews (10)</span>
+        </div>
+        <!-- Star Rating End -->
+        <p class="my-4">
+          <span class="fs-4 font-weight-normal" style="color: var(--primary-color);">$55.00</span>
+          <span class="ms-3">In Stock</span>
+        </p>
+        <!-- Product Description -->
+        <div class="description pb-4">
+          Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Duis mollis, est non
+          commodo luctus. Nulla vitae elit libero pharetra augue. Donec id elit non mi porta gravida at eget metus.
+        </div>
+        <!-- Product Description End-->
+
+        <div class="pb-4">
+          <form action="#">
+            <div class="row pt-4">
+              <div class="col-9">
+                <label>Choose a Color</label>
+                <select class="form-select form-select-md mb-3">
+                  <option value="" selected>Pink</option>
+                  <option value="1">Red</option>
+                  <option value="2">Blue</option>
+                </select>
+              </div>
+              <div class="col-9">
+                <label>Choose a Size</label>
+                <select class="form-select form-select-md mb-3">
+                  <option value="" selected>Small</option>
+                  <option value="1">Medium</option>
+                  <option value="2">Large</option>
+                </select>
+              </div>
+              <div class="col-lg-9 d-flex flex-row pt-2">
+                <div>
+                  <div class="select-wrapper">
+                    <select class="form-select">
+                      <option value="1" selected>1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="flex-frow-1 mx-2">
+                  <a href="shop-cart.html" class="btn btn-primary btn-size rounded w-100 flex-grow-1"><i class="bi bi-bag"></i> Add
+                    to Cart</a>
+                </div>
+                <div>
+                  <button class="btn btn-block btn-red btn-size w-100 h-100 rounded"><i
+                      class="bi bi-heart"></i></button>
+                </div>
+              </div>
+            </div>
+            <div class="row pt-4">
+              <div class="col">
+                <ul class="p-0">
+                  <li><span>Category:</span> Women</li>
+                  <li class="pt-4"><span> Tags:</span> <a href="#" class="btn btn-outline">Dress</a>
+                    <a href="#" class="btn btn-outline">Top</a></li>
+                </ul>
+                <nav class="social__links-type2 d-flex justify-content-start mt-4">
+                  <a href="#"><i class="bi bi-twitter twitter-color"></i></a>
+                  <a href="#"><i class="bi bi-facebook facebook-color"></i></a>
+                  <a href="#"><i class="bi bi-instagram instagram-color"></i></a>
+                </nav>
+              </div>
+
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- Col End -->
+    </div>
+
+    <!-- Tabs -->
+    <nav>
+      <div class="nav nav-tabs pt-5" id="nav-tab" role="tablist">
+        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+          type="button" role="tab" aria-controls="nav-home" aria-selected="true">Product Details</button>
+        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+          type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Additional Info</button>
+        <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
+          type="button" role="tab" aria-controls="nav-contact" aria-selected="false">
+          Review (1)</button>
+      </div>
+    </nav>
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur
+          ac, vestibulum at eros. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed
+          posuere consectetur est at lobortis. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a
+          pharetra augue. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id
+          dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non
+          magna. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna
+          mollis ornare vel eu leo. Vestibulum id ligula porta felis euismod semper.</p>
+        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ex corrupti culpa eum dolorem numquam
+          vel sunt, doloribus natus consectetur quae magni libero nesciunt. Quibusdam eaque aut unde impedit
+          praesentium.</p>
+      </div>
+      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic a similique sint, incidunt est error vitae
+          ea alias dolore accusamus odio quis saepe dolor molestias dignissimos ipsam unde rem numquam!</p>
+      </div>
+      <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+        <div class="instructor-wrap d-md-flex">
+          <div class="tutor-section d-grid me-md-4">
+            <div class="tutor-img lg-size-2x mb-4">
+              <figure>
+              <img src="assets/img/01.jpg" alt="">
+              </figure>
+            </div>
+          </div>
+          <div class="instructor-descriptions">
+            <h5 class="instructor-name mb-1">Edward Norton </h5>
+            <span class="muted date">Oct 10, 2022</span>
+            <div class="star-rating">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill" style="color: rgb(176, 176, 176);"></i>
+              <span>4.5</span>
+            </div>
+            <p class="mt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+              has been
+              the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+              also the leap into electronic typesetting, remaining essentially unchanged.</p>
+          </div>
+        </div>
+        
+        <hr class="my-3"> <!-- Divider line -->
+        
+        <!-- Review Form -->
+        <h3>Add a review</h3>
+        <p>Your email address will not be published. Required fields are marked *</p>
+        <form action="#" class="formstyle">
+          <div class="mb-4">
+            <label class="form-label">Your Rating <span>*</span></label>
+            <div class="star-rating">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill" style="color: rgb(176, 176, 176);"></i>
+              <i class="bi bi-star-fill" style="color: rgb(176, 176, 176);"></i>
+              <i class="bi bi-star-fill" style="color: rgb(176, 176, 176);"></i>
+              <i class="bi bi-star-fill" style="color: rgb(176, 176, 176);"></i>
+            </div>
+          </div>
+          <div class="form-floating mb-4">
+            <textarea class="form-control form-control-shadow" id="c-message" rows="3" style="height:150px;"
+              placeholder="Comments"></textarea>
+            <label for="c-message" class="form-label">Your Review</label>
+          </div>
+          <div class="form-floating mb-4">
+            <input type="text" class="form-control form-control-shadow" placeholder="name" id="c-name" required>
+            <label for="c-name">Name*</label>
+          </div>
+          <div class="form-floating mb-4">
+            <input type="email" class="form-control form-control-shadow" placeholder="email" id="c-email" required>
+            <label for="c-email">Email*</label>
+          </div>
+          <div class="mb-4">
+            <input type="submit" class="btn btn-primary" value="Submit">
+          </div>
+        </form>
+        <!-- Review Form End -->
+      </div>
+    </div>
+    <!-- Tabs End -->
+  </div>
+</section>
+<!-- body mid section -->
+<!-- Related courses -->
+<section class="section pt-0">
+    <div class="container">
+      <div class="section-heading-txt">
+        <h3 class="text-start">Related Products</h3>
+      </div>
+      <div class="row">
+        <div class="col-12">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper mb-5">
+            <div class="swiper-slide">
+              <div class="courses card rounded overflow-hidden">
+                <!-- Product Image -->
+                <div class="img-box">
+                  <img src="assets/img/prod-img-01.jpg" alt="img" class="img-fluid primary-img">
+                  <img src="assets/img/prod-img-hover-01.jpg" alt="img" class="img-fluid primary-hover-img">
+                  <span class="c-category">20% Off</span>
+                  <a href="#" class="item_like" data-bs-toggle="tooltip" data-bs-placement="left" title="Quick view"><span><i class="bi bi-eye fs-5"></i></span></a>
+                  <a href="#" class="item_view" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><span><i class="bi bi-heart fs-5"></i></span></a>
+                </div>
+                <!-- Product Image End -->
+                <!-- Product Body Content -->
+                <div class="p-3 card-body">
+                  <div class="course_small-info d-flex justify-content-between">
+                    <div class="course_info-meta"> <span> Category</span> </div>
+                  </div>
+                  <h3 class="product-title"><a href="product-details.html">Brown Women Casual Top </a></h3>
+                  <div class="course_small-info mb-3">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i> 4.5 <a href="#">(10)</a></div>
+                  <div class="price__group">
+                    <div class="price-box"><span>$15.00</span> <span>$20.00</span></div>
+                    <a href="shop-cart.html" class="btn btn__read-more btn__cart"><span class="btn-text">Add to Cart</span> <i class="bi bi-bag cirlce-bg"></i></a>
+                  </div>
+                </div>
+                <!-- Product Body Content End -->
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="courses card rounded overflow-hidden">
+                <!-- Product Image -->
+                <div class="img-box">
+                  <img src="assets/img/prod-img-01.jpg" alt="img" class="img-fluid primary-img">
+                  <img src="assets/img/prod-img-hover-01.jpg" alt="img" class="img-fluid primary-hover-img">
+                  <span class="c-category">20% Off</span>
+                  <a href="#" class="item_like" data-bs-toggle="tooltip" data-bs-placement="left" title="Quick view"><span><i class="bi bi-eye fs-5"></i></span></a>
+                  <a href="#" class="item_view" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><span><i class="bi bi-heart fs-5"></i></span></a>
+                </div>
+                <!-- Product Image End -->
+                <!-- Product Body Content -->
+                <div class="p-3 card-body">
+                  <div class="course_small-info d-flex justify-content-between">
+                    <div class="course_info-meta"> <span> Category</span> </div>
+                  </div>
+                  <h3 class="product-title"><a href="product-details.html">Brown Women Casual Top </a></h3>
+                  <div class="course_small-info mb-3">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i> 4.5 <a href="#">(10)</a></div>
+                  <div class="price__group">
+                    <div class="price-box"><span>$15.00</span> <span>$20.00</span></div>
+                    <a href="shop-cart.html" class="btn btn__read-more btn__cart"><span class="btn-text">Add to Cart</span> <i class="bi bi-bag cirlce-bg"></i></a>
+                  </div>
+                </div>
+                <!-- Product Body Content End -->
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="courses card rounded overflow-hidden">
+                <!-- Product Image -->
+                <div class="img-box">
+                  <img src="assets/img/prod-img-01.jpg" alt="img" class="img-fluid primary-img">
+                  <img src="assets/img/prod-img-hover-01.jpg" alt="img" class="img-fluid primary-hover-img">
+                  <span class="c-category">20% Off</span>
+                  <a href="#" class="item_like" data-bs-toggle="tooltip" data-bs-placement="left" title="Quick view"><span><i class="bi bi-eye fs-5"></i></span></a>
+                  <a href="#" class="item_view" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><span><i class="bi bi-heart fs-5"></i></span></a>
+                </div>
+                <!-- Product Image End -->
+                <!-- Product Body Content -->
+                <div class="p-3 card-body">
+                  <div class="course_small-info d-flex justify-content-between">
+                    <div class="course_info-meta"> <span> Category</span> </div>
+                  </div>
+                  <h3 class="product-title"><a href="product-details.html">Brown Women Casual Top </a></h3>
+                  <div class="course_small-info mb-3">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i> 4.5 <a href="#">(10)</a></div>
+                  <div class="price__group">
+                    <div class="price-box"><span>$15.00</span> <span>$20.00</span></div>
+                    <a href="shop-cart.html" class="btn btn__read-more btn__cart"><span class="btn-text">Add to Cart</span> <i class="bi bi-bag cirlce-bg"></i></a>
+                  </div>
+                </div>
+                <!-- Product Body Content End -->
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="courses card rounded overflow-hidden">
+                <!-- Product Image -->
+                <div class="img-box">
+                  <img src="assets/img/prod-img-01.jpg" alt="img" class="img-fluid primary-img">
+                  <img src="assets/img/prod-img-hover-01.jpg" alt="img" class="img-fluid primary-hover-img">
+                  <span class="c-category">20% Off</span>
+                  <a href="#" class="item_like" data-bs-toggle="tooltip" data-bs-placement="left" title="Quick view"><span><i class="bi bi-eye fs-5"></i></span></a>
+                  <a href="#" class="item_view" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><span><i class="bi bi-heart fs-5"></i></span></a>
+                </div>
+                <!-- Product Image End -->
+                <!-- Product Body Content -->
+                <div class="p-3 card-body">
+                  <div class="course_small-info d-flex justify-content-between">
+                    <div class="course_info-meta"> <span> Category</span> </div>
+                  </div>
+                  <h3 class="product-title"><a href="product-details.html">Brown Women Casual Top </a></h3>
+                  <div class="course_small-info mb-3">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i> 4.5 <a href="#">(10)</a></div>
+                  <div class="price__group">
+                    <div class="price-box"><span>$15.00</span> <span>$20.00</span></div>
+                    <a href="shop-cart.html" class="btn btn__read-more btn__cart"><span class="btn-text">Add to Cart</span> <i class="bi bi-bag cirlce-bg"></i></a>
+                  </div>
+                </div>
+                <!-- Product Body Content End -->
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="courses card rounded overflow-hidden">
+                <!-- Product Image -->
+                <div class="img-box">
+                  <img src="assets/img/prod-img-01.jpg" alt="img" class="img-fluid primary-img">
+                  <img src="assets/img/prod-img-hover-01.jpg" alt="img" class="img-fluid primary-hover-img">
+                  <span class="c-category">20% Off</span>
+                  <a href="#" class="item_like" data-bs-toggle="tooltip" data-bs-placement="left" title="Quick view"><span><i class="bi bi-eye fs-5"></i></span></a>
+                  <a href="#" class="item_view" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><span><i class="bi bi-heart fs-5"></i></span></a>
+                </div>
+                <!-- Product Image End -->
+                <!-- Product Body Content -->
+                <div class="p-3 card-body">
+                  <div class="course_small-info d-flex justify-content-between">
+                    <div class="course_info-meta"> <span> Category</span> </div>
+                  </div>
+                  <h3 class="product-title"><a href="product-details.html">Brown Women Casual Top </a></h3>
+                  <div class="course_small-info mb-3">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i> 4.5 <a href="#">(10)</a></div>
+                  <div class="price__group">
+                    <div class="price-box"><span>$15.00</span> <span>$20.00</span></div>
+                    <a href="shop-cart.html" class="btn btn__read-more btn__cart"><span class="btn-text">Add to Cart</span> <i class="bi bi-bag cirlce-bg"></i></a>
+                  </div>
+                </div>
+                <!-- Product Body Content End -->
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="courses card rounded overflow-hidden">
+                <!-- Product Image -->
+                <div class="img-box">
+                  <img src="assets/img/prod-img-01.jpg" alt="img" class="img-fluid primary-img">
+                  <img src="assets/img/prod-img-hover-01.jpg" alt="img" class="img-fluid primary-hover-img">
+                  <span class="c-category">20% Off</span>
+                  <a href="#" class="item_like" data-bs-toggle="tooltip" data-bs-placement="left" title="Quick view"><span><i class="bi bi-eye fs-5"></i></span></a>
+                  <a href="#" class="item_view" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><span><i class="bi bi-heart fs-5"></i></span></a>
+                </div>
+                <!-- Product Image End -->
+                <!-- Product Body Content -->
+                <div class="p-3 card-body">
+                  <div class="course_small-info d-flex justify-content-between">
+                    <div class="course_info-meta"> <span> Category</span> </div>
+                  </div>
+                  <h3 class="product-title"><a href="product-details.html">Brown Women Casual Top </a></h3>
+                  <div class="course_small-info mb-3">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i> 4.5 <a href="#">(10)</a></div>
+                  <div class="price__group">
+                    <div class="price-box"><span>$15.00</span> <span>$20.00</span></div>
+                    <a href="shop-cart.html" class="btn btn__read-more btn__cart"><span class="btn-text">Add to Cart</span> <i class="bi bi-bag cirlce-bg"></i></a>
+                  </div>
+                </div>
+                <!-- Product Body Content End -->
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="courses card rounded overflow-hidden">
+                <!-- Product Image -->
+                <div class="img-box">
+                  <img src="assets/img/prod-img-01.jpg" alt="img" class="img-fluid primary-img">
+                  <img src="assets/img/prod-img-hover-01.jpg" alt="img" class="img-fluid primary-hover-img">
+                  <span class="c-category">20% Off</span>
+                  <a href="#" class="item_like" data-bs-toggle="tooltip" data-bs-placement="left" title="Quick view"><span><i class="bi bi-eye fs-5"></i></span></a>
+                  <a href="#" class="item_view" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><span><i class="bi bi-heart fs-5"></i></span></a>
+                </div>
+                <!-- Product Image End -->
+                <!-- Product Body Content -->
+                <div class="p-3 card-body">
+                  <div class="course_small-info d-flex justify-content-between">
+                    <div class="course_info-meta"> <span> Category</span> </div>
+                  </div>
+                  <h3 class="product-title"><a href="product-details.html">Brown Women Casual Top </a></h3>
+                  <div class="course_small-info mb-3">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i> 4.5 <a href="#">(10)</a></div>
+                  <div class="price__group">
+                    <div class="price-box"><span>$15.00</span> <span>$20.00</span></div>
+                    <a href="shop-cart.html" class="btn btn__read-more btn__cart"><span class="btn-text">Add to Cart</span> <i class="bi bi-bag cirlce-bg"></i></a>
+                  </div>
+                </div>
+                <!-- Product Body Content End -->
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="courses card rounded overflow-hidden">
+                <!-- Product Image -->
+                <div class="img-box">
+                  <img src="assets/img/prod-img-01.jpg" alt="img" class="img-fluid primary-img">
+                  <img src="assets/img/prod-img-hover-01.jpg" alt="img" class="img-fluid primary-hover-img">
+                  <span class="c-category">20% Off</span>
+                  <a href="#" class="item_like" data-bs-toggle="tooltip" data-bs-placement="left" title="Quick view"><span><i class="bi bi-eye fs-5"></i></span></a>
+                  <a href="#" class="item_view" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><span><i class="bi bi-heart fs-5"></i></span></a>
+                </div>
+                <!-- Product Image End -->
+                <!-- Product Body Content -->
+                <div class="p-3 card-body">
+                  <div class="course_small-info d-flex justify-content-between">
+                    <div class="course_info-meta"> <span> Category</span> </div>
+                  </div>
+                  <h3 class="product-title"><a href="product-details.html">Brown Women Casual Top </a></h3>
+                  <div class="course_small-info mb-3">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i> 4.5 <a href="#">(10)</a></div>
+                  <div class="price__group">
+                    <div class="price-box"><span>$15.00</span> <span>$20.00</span></div>
+                    <a href="shop-cart.html" class="btn btn__read-more btn__cart"><span class="btn-text">Add to Cart</span> <i class="bi bi-bag cirlce-bg"></i></a>
+                  </div>
+                </div>
+                <!-- Product Body Content End -->
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- Footer section -->
+ <footer class="footer pb-0">
+  <div class="container p-4">
+    <div class="row g-4 row-cols-1 row-cols-md-2 row-cols-lg-4" data-aos="fade-right" data-aos-once="ture"
+      data-aos-duration="500" data-aos-delay="20">
+      <!-- Col 1 -->
+      <div class="col">
+        <div class="footer__col-one">
+          <!-- Footer Logo -->
+          <a href="#" class="footer-logo">
+            <img src="assets/img/footer-logo.png" alt="">
+          </a>
+          <!-- End -->
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's</p>
+          
+        </div>
+        <div class="social-links">
+          <a href="#"><i class="bi bi-twitter"></i></a>
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-youtube"></i></a>
+          <a href="#"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+      <!-- End -->
+      <!-- Col 2 -->
+      <div class="col" data-aos="fade-right" data-aos-once="ture" data-aos-duration="600" data-aos-delay="40">
+        <h5>Company</h5>
+        <ul class="mt-3">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <!-- End -->
+      <!-- Col 3 -->
+      <div class="col" data-aos="fade-right" data-aos-once="ture" data-aos-duration="700" data-aos-delay="60">
+        <h5>Support</h5>
+        <ul class="mt-3">
+          <li><a href="shop.html">Products</a></li>
+          <li><a href="faqs.html">FAQ's</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="#">Policies</a></li>
+        </ul>
+      </div>
+      <!-- End -->
+      <!-- Col 4 -->
+      <div class="col" data-aos="fade-right" data-aos-once="ture" data-aos-duration="800" data-aos-delay="80">
+        <h5>Conection with us</h5>
+        <address>
+          Shoppers<br>
+          Delhi NCR, Faridabad, Haryana
+          121004, India<br>
+          <strong>Phone No.</strong> +91- 704233XXXX
+        </address>
+      </div>
+      <!-- End -->
+    </div>
+  </div>
+  <div class="container">
+    <div class="row footer-border-top p-3">
+      <div class="col-6 small text-white text-styling">
+        Copyright@2023. All Rights Reserved | Designed by : <a href="https://technoambience.com/" target="_blank">Technoambience</a>
+      </div>
+      <div class="col-6 text-end text-white">
+        <i class="fa-brands fa-cc-visa fs-4"></i> 
+        <i class="fa-brands fa-cc-paypal fs-4"></i>
+        <i class="fa-brands fa-cc-stripe fs-4"></i>
+        <i class="fa-brands fa-cc-mastercard fs-4"></i>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Footer End -->
+
+
+  <!-- Bootstrap js -->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <!-- aos.js for animation on scroll -->
+  <script src="assets/plugins/aos/aos.js"></script>
+  <!-- Swiper slider js -->
+  <script src="assets/plugins/Swiper-slider/swiper-bundle.min.js"></script>
+  <!-- Glightbox js -->
+  <script src="assets/plugins/glightbox/glightbox.min.js"></script>
+  <!-- Script for Counter -->
+  <script src="assets/plugins/counter/jquery.min.js"></script>
+  <script src="assets/plugins/counter/waypoints.min.js"></script>
+  <script src="assets/plugins/counter/jquery.counterup.min.js"></script>
+  <!-- function.js -->
+  <script src="assets/js/function.js"></script>
+
+</body>
+
+</html>
